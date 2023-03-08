@@ -1,0 +1,101 @@
+section{
+    width: 100%;
+    padding: 10px;
+    min-height:calc(100vh - 80px);
+}
+
+section .form_data{
+    max-width: 400px;
+    margin: 20px auto;
+    /* background-color: #393E46; */
+    box-shadow: 0 0 15px -10px #EEEEEE;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_data h1{
+    font-size: 32px;
+    /* color: #eee; */
+}
+
+.form_data form{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form_data form .form_input input{
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #d4d0d0;
+    border-radius: 2px;
+    outline: none;
+    margin-bottom: 14px;
+    margin-top: 9px;
+    font-size: 15px;
+    
+}
+
+.form_data form .form_input label{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.form_input .two{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form_data form .form_input input::placeholder{
+    color: #8694a8;
+    letter-spacing: .5px;
+    font-size: 14px;
+}
+
+.form_input .showpass{
+    position: absolute;
+    right: 0;
+    top: 4px;
+    margin-right: 5px;
+    margin-top: 13px;
+    font-size: 14px;
+    color: #393E46;
+    cursor: pointer;
+}
+
+form .btn{
+    display:block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    background-color: lightsalmon;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+form .btn:hover{
+    background-color: rgb(247, 135, 90);
+}
+
+.form_data form p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form_data form a{
+    text-decoration: none;
+}
